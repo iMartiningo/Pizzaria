@@ -10,8 +10,14 @@
     }
 
     body {
-        background-image: url:("imagens/background-site");
-    }
+        
+        background-image: url("imagens/background-site.png");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        
+        }
+
 
     footer {
         background-color: black;
@@ -25,8 +31,8 @@
     nav {
         background-color: #133140;
         -webkit-box-shadow: inset 7px 10px 58px 0px rgba(0,0,0,0.91);
--moz-box-shadow: inset 7px 10px 58px 0px rgba(0,0,0,0.91);
-box-shadow: inset 7px 10px 58px 0px rgba(0,0,0,0.91);
+        -moz-box-shadow: inset 7px 10px 58px 0px rgba(0,0,0,0.91);
+        box-shadow: inset 7px 10px 58px 0px rgba(0,0,0,0.91);
  
     }
 
@@ -76,8 +82,8 @@ box-shadow: inset 7px 10px 58px 0px rgba(0,0,0,0.91);
     
 
     .zoomdel {
-        padding-left: 550px;
-        padding-right: 50px;
+        padding-left: 600px;
+        padding-right:60px;
         align-items: center;
         overflow: hidden;
         height: 180px;
