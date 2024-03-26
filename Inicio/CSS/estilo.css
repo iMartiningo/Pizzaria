@@ -6,28 +6,13 @@
     * {
         margin: 0;
         padding: 0;
-       
     }
-
+    
     body {
-        
-        background-image: url("imagens/background-site.png");
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-        
-        }
-
-
-    footer {
-        background-color: black;
-        color: white;
-        text-align: center;
-        padding: 4px;
-        margin: 0px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: whitesmoke
     }
-
+  
+  
     nav {
         background-color: #133140;
         -webkit-box-shadow: inset 7px 10px 58px 0px rgba(0,0,0,0.91);
@@ -60,76 +45,131 @@
         list-style: none;
     }
 
-    .Cardapio {
-        margin: 5px;
-    }
-
-    .Faça {
-        margin: 5px;
-    }
-
+   
     .Pedir {
         text-align: center;
     }
     
-    img {
-        height: 180px;
-        display: flex;
-        margin-top: 20px;
+    
+    h1 {
+        margin: 0;
+        font-weight: 700;
         
-        }
+   }
+
 
     
 
-    .zoomdel {
-        padding-left: 600px;
-        padding-right:60px;
-        align-items: center;
-        overflow: hidden;
-        height: 180px;
+    .choose {
+        align-self: center;
+        line-height: 1;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
-    .zoomdel {
-        max-width: 100%;
-        -moz-transition: all 0.3;
-        -webkit-transition: all 0.3;
-        transition: all 0.3;
-    }
+    
 
-    .zoomdel:hover img{
-        -moz-transform: scale(1.1);
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
+    .buttons {
+        width: 30%;
+        float: left;
+        text-align: left;
+        /* background: red; */
+        margin-top: 2%;
+        
     }
-
-    .zoomret {
-        overflow: hidden;
-    }
-
-    .zoomret {
-        max-width: 100%;
-        -moz-transition: all 0.3;
-        -webkit-transition: all 0.3;
-        transition: all 0.3;
-    }
-
-    .zoomret:hover img{
-        -moz-transform: scale(1.1);
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
-    }
-
-    .pizza1 {
+    
+    .content {
+        /* float: left; */
+        height: 80px;
+        text-align: center;
         width: 50%;
-        height: 50%;
-        padding-left: 400px;
-        margin-bottom: 10px;
+        margin: 0 30%;
+    }
+    
+    .content {
+
     }
 
+    /* h1 {
+
+        float: left;
+        padding-left: 450px;
+        padding-right: 20px;
+        margin-top: 50px;
+    }  */
+
+    section {
+        width: 100%;
+    }
+
+    .content h1:hover {
+        /* background: purple; */
+    }
+    
+    .content h1 {
+        /* background: lime; */
+    }
+
+    .content {
+        /* background: cadetblue; */
+        text-align: center;
+        margin-top: 2%;
+    }
+
+    h1.choose {
+
+        width: 50%;
+        float: left;
+    }
+
+    a.zoomdell {
+        text-decoration: none;
+        background: #133140;
+        font-family: sans-serif;
+        color: white;
+        padding: 10px;
+        border-radius: 7px;
+    }
+
+
+    
+
+    a.zoomrett {
+        text-decoration: none;
+        background: #133140;
+        font-family: sans-serif;
+        color: white;
+        padding: 10px;
+        border-radius: 7px;
+    }
+
+    a.zoomrett:hover {
+        background: rgba(0,0,0.2);
+    }
+
+    a.zoomdell:hover {
+        background: rgb(0,0,0.2);
+    }
+    
+
+    img.pizza1 {
+        margin-left: 15%;
+        width: 50%;
+    }
+
+    img.pizza2 {
+        width: 20%;
+    }
+
+    img.pizza3 {
+        width: 20%;
+        float: right;
+        margin-right: 14.5%;
+    }
   
          
     
 
 
 
-</style>
