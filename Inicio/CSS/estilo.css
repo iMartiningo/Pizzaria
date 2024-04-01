@@ -1,20 +1,24 @@
+    @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
-
-
-
+    
+    
+    
     * {
         margin: 0;
         padding: 0;
     }
+
+
+
     
     body {
-        background-color: whitesmoke
+        background-color: #c7c2c2 
     }
   
   
     nav {
-        background-color: #133140;
+        background-color: #133140c1;
         -webkit-box-shadow: inset 7px 10px 58px 0px rgba(0,0,0,0.91);
         -moz-box-shadow: inset 7px 10px 58px 0px rgba(0,0,0,0.91);
         box-shadow: inset 7px 10px 58px 0px rgba(0,0,0,0.91);
@@ -25,10 +29,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: all 300ms ease-out;
     }
+
     nav a {
         color: white;
         text-decoration: none;
+        transition: all 300ms ease-in-out;
+        border-radius: 7px;
         padding: 10px 20px;
         margin: 5px;
         text-transform: uppercase;
@@ -37,24 +45,34 @@
         }
 
     nav a:hover {
-        background: rgba(0, 0, 0, 0.3)
+        background: rgba(0, 0, 0, 0.5)
+        
+        
     }
 
     nav ul {
         display: flex;
         list-style: none;
+        border-radius: 7px;
     }
 
    
     .Pedir {
         text-align: center;
+        border
     }
     
     
     h1 {
         margin: 0;
         font-weight: 700;
-        
+
+   }
+
+    .content h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
    }
 
 
@@ -71,13 +89,23 @@
     
 
     .buttons {
-        width: 30%;
+        /* width: 30%; */
         float: left;
         text-align: left;
+        transition: all 300ms ease-in;
         /* background: red; */
         margin-top: 2%;
+        /* -webkit-box-shadow: inset 7px 10px 58px 0px rgba(0,0,0,0.91);
+        -moz-box-shadow: inset 7px 10px 58px 0px rgba(0,0,0,0.91);
+        box-shadow: inset 7px 10px 58px 0px rgba(0,0,0,0.91); */
         
     }
+
+    
+
+    /* .buttons:hover  {
+        background: rgba(0, 0, 0, 0.3);
+    } */
     
     .content {
         /* float: left; */
@@ -118,55 +146,83 @@
     }
 
     h1.choose {
-
         width: 50%;
         float: left;
+        font-size: 30px;
+        margin-right: 10px;
     }
 
+   
+    div a {
+        transition: all 300ms ease-in-out;
+    }
+
+
     a.zoomdell {
+        font-size: 20px;
         text-decoration: none;
         background: #133140;
         font-family: sans-serif;
         color: white;
-        padding: 10px;
-        border-radius: 7px;
+        padding: 15px;
+        border-radius: 10px;
     }
 
-
+    span {
+        font-family: "Roboto", sans-serif;
+    }
     
 
     a.zoomrett {
+        font-size: 20px;
         text-decoration: none;
         background: #133140;
         font-family: sans-serif;
         color: white;
-        padding: 10px;
-        border-radius: 7px;
+        padding: 15px;
+        border-radius: 10px;
     }
 
     a.zoomrett:hover {
-        background: rgba(0,0,0.2);
+        background: rgba(0, 0, 0, 0.5);
+       
     }
 
     a.zoomdell:hover {
-        background: rgb(0,0,0.2);
-    }
-    
-
-    img.pizza1 {
-        margin-left: 15%;
-        width: 50%;
+        background: rgba(0, 0, 0, 0.5);
+        
     }
 
-    img.pizza2 {
-        width: 20%;
+    .grids {
+        display: flex;
+        justify-content: end;
     }
 
     img.pizza3 {
-        width: 20%;
-        float: right;
-        margin-right: 14.5%;
+        width: 45%;
+        height: 50%;
+        border-radius: 5px;
+        /* float: right; */
     }
+    
+    img.pizza1 {
+        width: 20%;
+        height: 20%;
+        border-radius: 5px;
+        margin-left: 5px;
+    }
+    
+    img.pizza2 {
+        width: 20%;
+        height: 20%;
+        border-radius: 5px;
+        margin-left: 5px;
+        position: relative;
+        top: 235px;
+        right: 311px;
+    }
+
+    
   
          
     
